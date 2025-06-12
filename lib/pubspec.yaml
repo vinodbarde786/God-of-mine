@@ -1,0 +1,19 @@
+name: mines_predictor
+description: A Mines Game Predictor App
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  shared_preferences: ^2.3.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/predict.mp3
+    - assets/sounds/safe.mp3
+    - assets/sounds/game_over.mp3
